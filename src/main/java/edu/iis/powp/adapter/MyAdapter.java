@@ -1,6 +1,7 @@
 package edu.iis.powp.adapter;
 
 import edu.iis.client.plottermagic.IPlotter;
+import edu.iis.powp.appext.ApplicationWithDrawer;
 import edu.kis.powp.drawer.panel.DrawPanelController;
 import edu.kis.powp.drawer.shape.ILine;
 import edu.kis.powp.drawer.shape.LineFactory;
@@ -33,7 +34,7 @@ public class MyAdapter extends DrawPanelController implements IPlotter
 
         this.startX = x;
         this.startY = y;
-		drawLine(line);
+		ApplicationWithDrawer.getDrawPanelController().drawLine(line);
     }
 
     @Override

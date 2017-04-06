@@ -12,7 +12,6 @@ import edu.kis.powp.drawer.panel.DrawPanelController;
 public class ApplicationWithDrawer {
 
     private static boolean isAppCreated = false;
-	
     /**
      * Startup configuration.
      */
